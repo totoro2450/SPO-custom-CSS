@@ -22,6 +22,7 @@ export default class InjectCssApplicationCustomizer
     let siteUrl = this.context.pageContext.web.absoluteUrl;
     const cssUrl: string = siteUrl + "/SiteAssets/custom.css";
     const head: any = document.getElementsByTagName("head")[0] || document.documentElement;
+    
     // inject the style sheet
     let customStyle: HTMLLinkElement = document.createElement("link");
     customStyle.href = cssUrl;
