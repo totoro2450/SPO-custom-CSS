@@ -1,14 +1,9 @@
-# SPFx Applications Customiser CSS and JS Injection
-Hugo Bernier thank you for your solution! It's helpfull. 
-
-This is copy of https://github.com/hugoabernier/react-application-injectcss with my small cutomization. 
-Now this script will take custom.css and custom.js from current web "Site Assets". 
-
+# SPFx Applications Deploy custom CSS and JS
 ## Summary
 
-> **Note**: This code is provided as a sample only. Keep in mind that Microsoft may change page elements and styles at any time, rendering your custom CSS useless. It is preferrable to use well-known HTML element placeholders.
+> **Note**: Keep in mind that Microsoft may change page elements and styles at any time, rendering your custom CSS useless. It is preferrable to use well-known HTML element placeholders.
 
-When you need to make minor cosmetic changes to modern pages (e.g.:  match your corporate branding guidelines) and cannot use placeholders, you can create a custom CSS and inject on every modern page.
+When you need to make minor cosmetic changes to modern pages (e.g.:  match your corporate branding guidelines) and cannot use placeholders, you can create a custom CSS and deploy on every modern page.
 
 Please refrain from making drastic changes that may negatively impact your users' experience. If you experience issues with modern pages, please try disabling the extension before calling Microsoft Support to ensure that the issue isn't caused by your custom CSS.
 
@@ -25,16 +20,13 @@ Please refrain from making drastic changes that may negatively impact your users
 
 Solution|Author(s)
 --------|---------
-react-application-injectcss|Hugo Bernier ([Tahoe Ninjas](http://tahoeninjas.blog), @bernierh)
+SPO Customization | Alex
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.0.0|07 May, 2018|Initial release
-1.1.0|18 October, 2018|Updated to SPFx 1.6
-1.2.0|28 March, 2018|Updated to SPFx 1.8
-1.3.0|08 October, 2020 | Using current web "Site Assets"
+1.0.0.1|08 October, 2020 | Using current web "Site Assets"
 
 ## Disclaimer
 
@@ -66,7 +58,7 @@ Version|Date|Comments
 
 ### Manual deployment
 
-1. Upload the `react-application-injectcss.sppkg` from the `sharepoint` folder to your App catalog.
+1. Upload the `SPO-Customization.sppkg` from the `sharepoint` folder to your App catalog.
 2. When prompted to deploy to all sites, choose the option that suits your needs.
 
 ## Features
