@@ -26,7 +26,7 @@ export default class SpoCustomizationApplicationCustomizer
   @override
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
-
+    
     let siteUrl = this.context.pageContext.web.absoluteUrl;
     const cssUrl: string = siteUrl + "/SiteAssets/custom.css";
     const head: any = document.getElementsByTagName("head")[0] || document.documentElement;
@@ -37,14 +37,7 @@ export default class SpoCustomizationApplicationCustomizer
     customStyle.rel = "stylesheet";
     customStyle.type = "text/css";
     head.insertAdjacentElement("beforeEnd", customStyle);
-
-    // inject the js script
-    const jsUrl: string = siteUrl + "/SiteAssets/custom.js";
-    let customJS = document.createElement("script");
-    customJS.src = jsUrl;
-    customJS.type = "text/javascript";
-    head.insertAdjacentElement("beforeEnd", customJS);
-
+      
     return Promise.resolve();
   }
 }

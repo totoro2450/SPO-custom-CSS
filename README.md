@@ -27,6 +27,7 @@ SPO Customization | Alex
 Version|Date|Comments
 -------|----|--------
 1.0.0.1|08 October, 2020 | Using current web "Site Assets"
+1.0.0.2|18 November, 2020 | Apply only on defined sites. Removed custom JS inject.
 
 ## Disclaimer
 
