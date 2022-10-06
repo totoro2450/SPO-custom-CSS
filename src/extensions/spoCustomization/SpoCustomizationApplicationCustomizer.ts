@@ -26,6 +26,7 @@ export default class SpoCustomizationApplicationCustomizer
   @override
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
+    // ToDo: 1; 
     
     let siteUrl = this.context.pageContext.web.absoluteUrl;
     const cssUrl: string = siteUrl + "/SiteAssets/custom.css";
