@@ -3,7 +3,7 @@ import { Log } from '@microsoft/sp-core-library';
 import {
   BaseApplicationCustomizer
 } from '@microsoft/sp-application-base';
-import { Dialog } from '@microsoft/sp-dialog';
+// import { Dialog } from '@microsoft/sp-dialog';
 
 import * as strings from 'SpoCustomizationApplicationCustomizerStrings';
 
@@ -29,7 +29,8 @@ export default class SpoCustomizationApplicationCustomizer
     // ToDo: 1; 
     
     let siteUrl = this.context.pageContext.web.absoluteUrl;
-    const cssUrl: string = siteUrl + "/SiteAssets/custom.css";
+    // const cssUrl: string = siteUrl + "/SiteAssets/custom.css";
+    const cssUrl: string = siteUrl + "/Style%20Library/custom.css";
     const head: any = document.getElementsByTagName("head")[0] || document.documentElement;
     
     // inject the style sheet

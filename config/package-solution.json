@@ -3,7 +3,7 @@
   "solution": {
     "name": "spo-customization",
     "id": "b23453ba-12dc-4907-8d8a-b2805f471c5a",
-    "version": "1.0.0.2",
+    "version": "1.0.0.4",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
